@@ -1,0 +1,3 @@
+# RecursionError in Recursive Factorial Function
+
+This repository demonstrates a common error in recursive functions: exceeding the maximum recursion depth.  The `factorial_bug.py` file contains a recursive factorial function that works correctly for non-negative inputs but raises a `RecursionError` when given a negative input.  The `factorial_solution.py` file provides a solution that handles this case gracefully. 
